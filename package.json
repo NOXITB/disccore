@@ -1,0 +1,29 @@
+{
+    "name": "@discord-card/core",
+    "version": "1.1.5",
+    "description": "Discord Card core",
+    "main": "src/index.js",
+    "types": "src/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "build:watch": "npm run build -- -w",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "discord",
+        "canvas",
+        "card"
+    ],
+    "author": "discord-card",
+    "license": "Apache License",
+    "dependencies": {
+        "canvas": "^2.8.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/discord-card/core.git"
+    },
+    "devDependencies": {
+        "@types/node": "^16.7.6"
+    }
+}
