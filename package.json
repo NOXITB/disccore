@@ -1,5 +1,5 @@
 {
-    "name": "@discord-card/core",
+    "name": "disccore",
     "version": "1.1.5",
     "description": "Discord Card core",
     "main": "src/index.js",
@@ -21,7 +21,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/discord-card/core.git"
+        "url": "https://github.com/NOXITB/disccore"
     },
     "devDependencies": {
         "@types/node": "^16.7.6"
